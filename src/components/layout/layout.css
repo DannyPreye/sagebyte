@@ -1,0 +1,139 @@
+.container {
+    padding: 25px 64px;
+}
+.header-container {
+    background: var(--base-white);
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1 1 0;
+}
+.logo_text {
+    color: var(--base-black);
+    font-family: Plus Jakarta Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+}
+.header_icon_container {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.header_icon {
+    border-radius: 8px;
+    border: 1px solid var(--gray-300);
+    background: var(--base-white);
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.user_icon {
+    width: 40px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+
+/* Seach Filters  */
+.search_filter_container {
+    display: grid;
+    gap: 24px;
+}
+.filters_div {
+    display: flex;
+    gap: 24px;
+}
+.each_filter {
+    background-color: var(--base-white);
+    display: flex;
+    width: 100%;
+    max-width: 418px;
+    padding: 12px 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+.filter_input {
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    display: flex;
+    color: var(--gray-true-400);
+    gap: 2px;
+}
+
+.filter_input > input {
+    border: none;
+    outline: none;
+    flex-grow: 1;
+}
+
+.filter_select {
+    display: flex;
+
+    width: 100%;
+}
+.filter_select .select {
+    /* width: 400px; */
+
+    flex-grow: 1;
+    border: none;
+    outline: none;
+}
+
+.generate_button {
+    border-radius: 8px;
+    border: 1px solid var(--gray-true-800);
+    color: var(--gray-true-25);
+    background: var(--gray-true-800);
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+    max-width: 222px;
+    width: 100%;
+    padding: 12px 14px;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.main {
+    display: flex;
+    gap: 24px;
+    margin-top: 32px;
+}
+
+.category_container {
+    background: var(--base-white);
+    padding: 20px;
+    width: fit-content;
+}
+.category_container > h5,
+.categories {
+    width: 278px;
+}
+.categories {
+    margin-top: 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.categories > a {
+    height: 40px;
+    padding: 8px 12px;
+}
+.active {
+    background-color: var(--gray-true-900);
+    color: var(--base-white);
+    border-radius: 6px;
+}
